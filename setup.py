@@ -23,7 +23,8 @@ setup(
         ],
     },
     entry_points={
-        'console_scripts': [
-        ],
-    },
+    'console_scripts': [
+        'first_node = letsgo_pkg.scripts.first_node:main',
+    ],
+},
 )
